@@ -1,0 +1,32 @@
+{
+  "name": "simple-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duyanpeng/simple-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duyanpeng/simple-gulp/issues"
+  },
+  "homepage": "https://github.com/duyanpeng/simple-gulp#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gulp": "^3.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-less": "^4.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "gulp-clean-fix": "^0.3.4",
+    "shelljs": "^0.8.3"
+  }
+}

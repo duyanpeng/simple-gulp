@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>这是一个移动端网页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 注意虽然是less文件，但是引用要引css后缀，因为less文件会在dist目录内被编译为css -->
+    <link rel="stylesheet" href="./css/firstPage.css">
+</head>
+<body>
+    <div id="app">
+        <p>{{testMessage}}</p>
+        <img src="./image/picture.jpg" alt="引入图片例子">
+    </div>
+<!-- 引入vue库 -->
+<script src="./libs/vue.js"></script>
+<!-- rem转px方法 -->
+<script src="./js/rem.js"></script>
+
+<script src="./js/firstPage.js"></script>
+</body>
+</html>
