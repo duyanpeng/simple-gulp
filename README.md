@@ -10,8 +10,8 @@
 ### 目录
 
 ├── package.json    
-├── dist            // 打包之后的文件
-├── gulpfile.js      // gulp配置文件          
+├── dist            // 打包之后的文件       
+├── gulpfile.js      // gulp配置文件             
 └── src             // 源代码文件        
     ├── css          // css          
     │   ├── firstPage.less      
