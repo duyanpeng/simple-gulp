@@ -21,7 +21,7 @@
     ├── js          // js          
     │   ├── firstPage.js   
     │   └── rem.js   
-    ├── libs       // js库
+    ├── libs       // js库           
     │   ├── fastclick.js     
     │   ├── swiper.min.js   
     │   ├── vue.js   
@@ -55,7 +55,7 @@ npm run start
 ```   
 + 设置proxy
 ```
-// proxy在gulpfile文件配置        
+// proxy在gulpfile文件配置        
 return [
     // 配置代理在这里！
     proxy('/proxy', {
